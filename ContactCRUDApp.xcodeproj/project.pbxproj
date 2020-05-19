@@ -16,6 +16,9 @@
 		4E28A900247420E2006185F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E28A8FE247420E2006185F1 /* LaunchScreen.storyboard */; };
 		4E28A90B247420E2006185F1 /* ContactCRUDAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28A90A247420E2006185F1 /* ContactCRUDAppTests.swift */; };
 		4E28A916247420E2006185F1 /* ContactCRUDAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28A915247420E2006185F1 /* ContactCRUDAppUITests.swift */; };
+		4E28A92424744CAE006185F1 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28A92324744CAE006185F1 /* ContactTableViewCell.swift */; };
+		4E28A92624744E57006185F1 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28A92524744E57006185F1 /* ContactModel.swift */; };
+		4E28A92824744EE7006185F1 /* ContactRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E28A92724744EE7006185F1 /* ContactRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		4E28A911247420E2006185F1 /* ContactCRUDAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactCRUDAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E28A915247420E2006185F1 /* ContactCRUDAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCRUDAppUITests.swift; sourceTree = "<group>"; };
 		4E28A917247420E2006185F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E28A92324744CAE006185F1 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		4E28A92524744E57006185F1 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		4E28A92724744EE7006185F1 /* ContactRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				4E28A8F0247420E1006185F1 /* AppDelegate.swift */,
 				4E28A8F2247420E1006185F1 /* SceneDelegate.swift */,
 				4E28A8F4247420E1006185F1 /* ViewController.swift */,
+				4E28A92524744E57006185F1 /* ContactModel.swift */,
+				4E28A92724744EE7006185F1 /* ContactRequest.swift */,
+				4E28A92324744CAE006185F1 /* ContactTableViewCell.swift */,
 				4E28A8F6247420E1006185F1 /* Main.storyboard */,
 				4E28A8FC247420E2006185F1 /* Assets.xcassets */,
 				4E28A8FE247420E2006185F1 /* LaunchScreen.storyboard */,
@@ -263,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E28A8F5247420E1006185F1 /* ViewController.swift in Sources */,
+				4E28A92424744CAE006185F1 /* ContactTableViewCell.swift in Sources */,
+				4E28A92624744E57006185F1 /* ContactModel.swift in Sources */,
 				4E28A8F1247420E1006185F1 /* AppDelegate.swift in Sources */,
+				4E28A92824744EE7006185F1 /* ContactRequest.swift in Sources */,
 				4E28A8FB247420E1006185F1 /* ContactCRUDApp.xcdatamodeld in Sources */,
 				4E28A8F3247420E1006185F1 /* SceneDelegate.swift in Sources */,
 			);
