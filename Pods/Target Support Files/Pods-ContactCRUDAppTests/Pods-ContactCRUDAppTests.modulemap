@@ -1,0 +1,6 @@
+framework module Pods_ContactCRUDAppTests {
+  umbrella header "Pods-ContactCRUDAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
