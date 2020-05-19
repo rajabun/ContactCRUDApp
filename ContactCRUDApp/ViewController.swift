@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ViewController: UITableViewController
 {
@@ -65,9 +66,9 @@ class ViewController: UITableViewController
         
         let contact = listOfContacts[indexPath.row]
         
-        //let urlImage = URL(string: contact.photo)
+        let urlImage = URL(string: contact.photo)
         
-        //cell?.contactPhoto.sd_setImage(with: urlImage, completed: nil)
+        cell?.contactPhoto.sd_setImage(with: urlImage, completed: nil)
         cell?.firstNameLabel.text = contact.firstName
         cell?.lastNameLabel.text = contact.lastName
         cell?.ageLabel.text = String(contact.age)
